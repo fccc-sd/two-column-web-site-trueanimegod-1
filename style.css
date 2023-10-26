@@ -22,7 +22,6 @@ header
     width: 910px;
     padding: 25px;
     color:rgb(143, 4, 4);
-    background-color: rgba(8, 158, 163, 0.884);
     line-height: 2.3em;
     text-align: center;
     font-size: 1.75em;
@@ -71,7 +70,7 @@ aside
     height: 400px;
     margin: 0 10px 10px 0; 
     padding: 10px;
-   background-color: purple;
+   background-color:firebrick;
    float: left;
 
 }
@@ -82,7 +81,7 @@ section
     height: 400px;
     margin: 0 0 10px 0; 
     padding: 10px;
-   background-color: green;
+   background-color:firebrick;
    float: right;
 }
 
