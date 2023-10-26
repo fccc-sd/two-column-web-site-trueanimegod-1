@@ -13,7 +13,7 @@ body
 {
     width: 960px;
     margin: 0 auto;
-    background-color: white;
+    background-color: rgba(8, 158, 163, 0.884);
 }
 
 header
@@ -21,20 +21,48 @@ header
     height: 100px;
     width: 910px;
     padding: 25px;
-    background-color: orange;
+    color:rgb(143, 4, 4);
+    background-color: rgba(8, 158, 163, 0.884);
+    line-height: 2.3em;
+    text-align: center;
+    font-size: 1.75em;
+    font-weight: bolder;
+    font-style: italic;
     margin-bottom: 10px;
 }
 
 nav
 {
     width: 940px;
-    background-color: yellow;
+    background-color: forestgreen;
+    line-height: 200%;
     padding: 10px;
 }
+
 nav li{
     display:inline;
     list-style-type: none;
     padding-right: 40px;
+}
+
+nav a:link
+{
+    color: rgb(143, 4, 4);
+    text-decoration: none;
+}
+nav a:visited
+{
+    color: rgb(143, 4, 4);
+}
+
+nav a:hover
+{
+    text-decoration: underline;
+}
+
+nav a:active
+{
+    color: black;
 }
 
 aside
@@ -60,6 +88,6 @@ section
 
 footer
 {
-    background-color: blue;
+    background-color:forestgreen;
     clear: both;
 }
