@@ -11,7 +11,8 @@ body
 
 #container
 {
-    width: 960px;
+    width: 1000px;
+    height: 1120px;
     margin: 0 auto;
     background-color: rgba(8, 158, 163, 0.884);
 }
@@ -19,7 +20,7 @@ body
 header
 {
     height: 100px;
-    width: 910px;
+    width: 940px;
     padding: 25px;
     color:rgb(143, 4, 4);
     line-height: 2.3em;
@@ -27,7 +28,11 @@ header
     font-size: 1.75em;
     font-weight: bolder;
     font-style: italic;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
+    border:crimson;
+    border-width:thick;
+    border-style: double;
+    border-radius: 10em;
 }
 
 nav
@@ -89,4 +94,10 @@ footer
 {
     background-color:forestgreen;
     clear: both;
+}
+img
+{
+    float:right;
+    margin-right: 20px;
+    margin-top: 20px;
 }
