@@ -11,7 +11,7 @@ body
 
 #container
 {
-    width: 1000px;
+    width: 1100px;
     height: 1120px;
     margin: 0 auto;
     background-color: rgba(8, 158, 163, 0.884);
@@ -20,14 +20,14 @@ body
 header
 {
     height: 100px;
-    width: 940px;
+    width: 1040px;
     padding: 25px;
     color:rgb(143, 4, 4);
     line-height: 2.3em;
     text-align: center;
     font-size: 1.75em;
     font-weight: bolder;
-    font-style: italic;
+    font-style: oblique;
     margin-bottom: 5px;
     border:crimson;
     border-width:thick;
@@ -37,7 +37,7 @@ header
 
 nav
 {
-    width: 940px;
+    width: 1080px;
     background-color: forestgreen;
     line-height: 200%;
     padding: 10px;
@@ -47,37 +47,42 @@ nav li{
     display:inline;
     list-style-type: none;
     padding-right: 40px;
+    font-style:oblique;
 }
 
 nav a:link
 {
     color: rgb(143, 4, 4);
     text-decoration: none;
+    font-style:oblique;
 }
 nav a:visited
 {
     color: rgb(143, 4, 4);
+    font-style:oblique;
 }
 
 nav a:hover
 {
     text-decoration: underline;
+    font-style:oblique;
 }
 
 nav a:active
 {
     color: black;
+    font-style:oblique;
 }
 
 aside
 {
-    width: 200px;
+    width: 370px;
     height: 400px;
     margin: 0 10px 10px 0; 
     padding: 10px;
    background-color:firebrick;
    float: left;
-
+   text-align: center;
 }
 
 section
@@ -88,6 +93,7 @@ section
     padding: 10px;
    background-color:firebrick;
    float: right;
+   text-align: center;
 }
 
 footer
@@ -98,6 +104,15 @@ footer
 img
 {
     float:right;
-    margin-right: 20px;
+    margin-right: 100px;
     margin-top: 20px;
+}
+table
+{
+    width:370px;
+    text-align: center;
+}
+li
+{
+    list-style: none;
 }
