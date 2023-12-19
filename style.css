@@ -1,0 +1,118 @@
+*
+{
+    margin: 0;
+    padding:0;
+}
+
+body
+{
+    background-color: black;
+}
+
+#container
+{
+    width: 1100px;
+    height: 1120px;
+    margin: 0 auto;
+    background-color: rgba(8, 158, 163, 0.884);
+}
+
+header
+{
+    height: 100px;
+    width: 1040px;
+    padding: 25px;
+    color:rgb(143, 4, 4);
+    line-height: 2.3em;
+    text-align: center;
+    font-size: 1.75em;
+    font-weight: bolder;
+    font-style: oblique;
+    margin-bottom: 5px;
+    border:crimson;
+    border-width:thick;
+    border-style: double;
+    border-radius: 10em;
+}
+
+nav
+{
+    width: 1080px;
+    background-color: forestgreen;
+    line-height: 200%;
+    padding: 10px;
+}
+
+nav li{
+    display:inline;
+    list-style-type: none;
+    padding-right: 40px;
+    font-style:oblique;
+}
+
+nav a:link
+{
+    color: rgb(143, 4, 4);
+    text-decoration: none;
+    font-style:oblique;
+}
+nav a:visited
+{
+    color: rgb(143, 4, 4);
+    font-style:oblique;
+}
+
+nav a:hover
+{
+    text-decoration: underline;
+    font-style:oblique;
+}
+
+nav a:active
+{
+    color: black;
+    font-style:oblique;
+}
+
+aside
+{
+    width: 370px;
+    height: 400px;
+    margin: 0 10px 10px 0; 
+    padding: 10px;
+   background-color:firebrick;
+   float: left;
+   text-align: center;
+}
+
+section
+{
+    width: 680px;
+    height: 400px;
+    margin: 0 0 10px 0; 
+    padding: 10px;
+   background-color:firebrick;
+   float: right;
+   text-align: center;
+}
+
+footer
+{
+    background-color:forestgreen;
+    clear: both;
+}
+img
+{
+    float:right;
+    margin-right: 100px;
+    margin-top: 20px;
+}
+table
+{
+    width:370px;
+    text-align: center;
+}
+li
+{
+    list-style: none;
+}
