@@ -1,0 +1,141 @@
+*
+{
+    margin: 0;
+    padding:0;
+}
+
+body
+{
+    background-color: rgba(8, 158, 163, 0.884);
+    font-family: inherit;
+    line-height: 2.3em;
+    font-size: 1em;
+}
+
+#container
+{
+    width: 1100px;
+    height: auto;
+    margin: auto;
+    background-color: rgba(8, 158, 163, 0.884);
+}
+
+header
+{
+    height: 100px;
+    width: 1040px;
+    padding: 25px;
+    color:rgb(143, 4, 4);
+    line-height: 2.3em;
+    text-align: center;
+    font-size: 1.75em;
+    font-weight: bolder;
+    font-style: oblique;
+    margin-bottom: 5px;
+    border:crimson;
+    border-width:thick;
+    border-style: double;
+    border-radius: 10em;
+}
+
+nav
+{
+    width: 1080px;
+    background-color: forestgreen;
+    padding: 10px;
+    margin-bottom: 0px;
+}
+
+nav li{
+    display:inline;
+    list-style-type: none;
+    padding-right: 40px;
+    font-style:oblique;
+    margin-bottom: 0px;
+    margin-left: 0px;
+}
+
+nav a:link
+{
+    color: rgb(143, 4, 4);
+    text-decoration: none;
+    font-style:oblique;
+}
+nav a:visited
+{
+    color: rgb(143, 4, 4);
+    font-style:oblique;
+}
+
+nav a:hover
+{
+    text-decoration: underline;
+    font-style:oblique;
+}
+
+nav a:active
+{
+    color: black;
+    font-style:oblique;
+}
+
+aside
+{
+    width: 370px;
+    height: auto;
+    margin: 0 10px 10px 0; 
+    padding: 10px;
+    background-color:firebrick;
+    float: left;
+    text-align: center;
+}
+
+section
+{
+    width: 650px;
+    height: auto;
+    margin: 0 0 10px 0; 
+    padding: 10px;
+    background-color:firebrick;
+    float: right;
+    text-align: center;
+}
+
+footer
+{
+    background-color:forestgreen;
+    clear: both;
+}
+
+img
+{
+    float:right;
+    margin-right: 100px;
+    margin-top: 20px;
+}
+
+table
+{
+    width:370px;
+    text-align: center;
+}
+
+li
+{
+    list-style: none;
+}
+
+.red
+{
+    background-color: firebrick;
+}
+
+.container_12
+{
+    background-color: rgba(8, 158, 163, 0.884);    
+}
+
+ul
+{
+    margin-bottom: 0px;
+}

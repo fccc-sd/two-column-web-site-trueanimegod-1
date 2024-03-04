@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id = "container">
+        <header>
+            Pizza Order
+        </header>
+
+        <nav>
+            <ul>
+                <li><a href="index.html" title="Homepage">Home</a></li>
+                <li><a href="setup.html" title="Setup">Setup</a></li>
+                <li><a href="games.html" title="Games">Games</a></li>
+                <li><a href="pizzaorder.html" title="pizzaorder">Pizza</a></li>
+                <li><a href="960page.html" title="FamVehicles">Vehicles</a></li>
+            </ul>
+        </nav>
+    <aside>
+        <form id="customer_name" action="order_pizza.php" method="post"></form>
+    <p>Please enter your information to order.</p>
+    <p>Name: <input type="text" name="name" id="name"></p>
+    <p>Address: <input type="text" name="Address" id="Address"></p>
+    <p>Phone Number: <input type="text" name="Phone_number" id="Phone_number"></p><br>
+    <input type="radio" name="pickup" id="pick">
+    <label for="pickup">Pickup</label>
+    <input type="radio" name="Delivery" id="Del">
+    <label for="Delivery">Delivery</label><br><br>
+    <p>Sizes:</p>
+    <input type="radio" name="Small" id="Small">
+    <label for="Small">Small</label>
+    <input type="radio" name="Medium" id="Medium">
+    <label for="Medium">Medium</label>
+    <input type="radio" name="Large" id="Large">
+    <label for="Large">Large</label>
+    <input type="radio" name="bob" id="bob">
+    <label for="bob">Bob</label><br><br>
+    <p>Toppings:</p>
+    <input type="checkbox" name="Pepperoni" id="Pep">
+    <label for="Pepperoni">Pepperoni</label>
+    <input type="checkbox" name="ham" id="ham">
+    <label for="ham">Ham</label>
+    <input type="checkbox" name="bacon" id="bac">
+    <label for="bacon">Bacon</label>
+    <input type="checkbox" name="sausage" id="saus">
+    <label for="sausage">Sausage</label>
+    <input type="checkbox" name="Beef" id="beef">
+    <label for="Beef">Beef</label><br><br>
+    <p>Notes for cooks <input type="text" name="Cook_notes" id="notes" size="48"></p>
+    <input id="submit" type="submit" value="Submit order">
+    </aside>
+</body>
+</html>
